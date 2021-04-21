@@ -17,3 +17,6 @@ This script will take a FASTQ input and output a list of nucleotide sequences fo
 
 # Part1_GagGW9_counts
 This script is nearly identical to the aforementioned Nef RM9 counts script--the only difference is in this case, I wanted to extract Gag GW9. 
+
+# EpitopeScreening
+This script takes the output from either the Nef RM9 counts file, or the Gag GW9 counts file (which is the nucleotide sequence to the desired region), and outputs an organized listing of amino acid sequences and their counts. So, you would first use either the Nef RM9 counts file, or the Gag GW9 counts script, and then you would use this script to tidy up the data and identify amino acid sequences and their counts. 
