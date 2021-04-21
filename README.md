@@ -20,3 +20,6 @@ This script is nearly identical to the aforementioned Nef RM9 counts script--the
 
 # EpitopeScreening
 This script takes the output from either the Nef RM9 counts file, or the Gag GW9 counts file (which is the nucleotide sequence to the desired region), and outputs an organized listing of amino acid sequences and their counts. So, you would first use either the Nef RM9 counts file, or the Gag GW9 counts script, and then you would use this script to tidy up the data and identify amino acid sequences and their counts. 
+
+# TatSL8toBarcodeLinkage
+This script takes an input FASTQ file and outputs a list of barcodes and the corresponding Tat SL8 epitope sequence linked to that barcode. Note: this is linkage data. Therefore, the output provided ONLY links barcodes to the Tat SL8 sequences tht were found on the exact same read. This is not a general count of barcodes and sequences, but a more specific linkage between barcodes and the corresponding Tat SL8 sequences. 
